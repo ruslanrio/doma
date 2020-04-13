@@ -8,8 +8,9 @@ height: 100%;
 
 body * {
 animation-name: fade;
-animation-duration: 1s;
+animation-duration: 2s;
 animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes fade {
@@ -19,4 +20,5 @@ animation-iteration-count: 1;
 
 h1 {
   align: center;
+  text-weight: 240;
 }
