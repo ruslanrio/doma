@@ -1,0 +1,15 @@
+body {
+width: 100%;
+height: 100%;
+}
+
+body * {
+animation-name: fade;
+animation-duration: 1s;
+animation-iteration-count: 1;
+}
+
+@keyframes fade {
+0% {transform: translate(-200px,0);}
+100% {tansform: translate(0,0);}
+}
