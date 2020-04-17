@@ -5,17 +5,16 @@
   </head>
   <body>
     <script>
+let date = new Date();
       var ReplaceBackground = function() {
-        var hour = new Date();
-if(hour.getHours()<6 || hour.getHours()>20) 
-  document.body.style.background = 'linear-gradient(to bottom right, #0033ff, #aa00ff)';
- else 
-  document.body.style.background = 'linear-gradient(to bottom right, #ff33333, #ffaa00)';
-
+if (date.getHours()<6 || date.getHours()>20) 
+   document.body.style.background = 'linear-gradient(to bottom right, #0033ff, #ff00ff)'
+else
+document.body.style.background = 'linear-gradient(to bottom right, #ff3333, #ffaa00)'
 }
 
 document.addEventListener("DOMContentLoaded", ReplaceBackground);
     </script>
-  <h1>Всем привет!!! Вы открыли тестовую версию сайта</h1>
+  <h1>Всем привет!!!!! Вы открыли тестовую версию сайта</h1>
   </body>
 </html>
