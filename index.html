@@ -6,7 +6,13 @@
   <body>
     <script>
       var ReplaceBackground = function() {
-   document.body.style.background = 'linear-gradient(to bottom right, #00aaff, #aa00ff)';
+        var hour = new Date();
+if(hour.getHours()<6 || hour.getHours()>20) {
+  document.body.style.background = 'linear-gradient(to bottom right, #0033ff, #aa00ff)';
+} else {
+  document.body.style.background = 'linear-gradient(to bottom right, #ff33333, #ffaa00)';
+};
+   document.body.style.background = 'linear-gradient(to bottom right, #0033ff, #aa00ff)';
 }
 
 document.addEventListener("DOMContentLoaded", ReplaceBackground);
