@@ -22,3 +22,21 @@ h1 {
   align: center;
   text-weight: 240;
 }
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 10vh;
+}
+
+.bottom-menu li
+align-items: center;
+display: inline;
+}
+
+.bottom-menu li img {
+  width: 8vh;
+  height: 8vh;
+}
