@@ -24,6 +24,7 @@ h1 {
 }
 
 .bottom-menu {
+  background: #0000ff;
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -32,6 +33,7 @@ h1 {
 }
 
 .bottom-menu .item {
+  background: #00ff00;
 align-items: center;
 display: inline;
 }
