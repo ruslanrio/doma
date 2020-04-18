@@ -23,24 +23,21 @@ h1 {
   text-weight: 240;
 }
 
-.bottom-menu {
-  background: #0000ff;
-  position: fixed;
-  top: 90%;
-  bottom: 0px;
-  width: 100%;
-  height: 10%;
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  height: 12%;
 }
 
-.bottom-menu li {
-  position: relative;
-display: inline;
- margin: 0px;
-  background: #00ff00;
-align-items: center;
+.navbar li {
+  float: left;
+    display: block;
+    text-align: center;
 }
 
-.bottom-menu li img {
+.navbar li img {
   width: 96px;
   height: 96px;
 }
