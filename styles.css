@@ -27,8 +27,7 @@ h1 {
   background: #0000ff;
   position: fixed;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
+  wdth: 100vw;
   height: 10vh;
 }
 
