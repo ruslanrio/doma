@@ -31,12 +31,12 @@ h1 {
   height: 10vh;
 }
 
-.bottom-menu li {
+.bottom-menu .item {
 align-items: center;
 display: inline;
 }
 
-.bottom-menu li img {
-  width: 8vh;
-  height: 8vh;
+.bottom-menu .item img {
+  width: 15vw;
+  height: 15vw;
 }
