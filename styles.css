@@ -31,14 +31,14 @@ h1 {
   height: 10%;
 }
 
-.bottom-menu .item {
+.bottom-menu li {
  margin: 0px;
   background: #00ff00;
 align-items: center;
 display: inline;
 }
 
-.bottom-menu .item img {
+.bottom-menu li img {
   width: 96px;
   height: 96px;
 }
