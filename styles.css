@@ -32,12 +32,13 @@ h1 {
 }
 
 .bottom-menu .item {
+ margin: 0px;
   background: #00ff00;
 align-items: center;
 display: inline;
 }
 
 .bottom-menu .item img {
-  width: 15vw;
-  height: 15vw;
+  width: 96px;
+  height: 96px;
 }
