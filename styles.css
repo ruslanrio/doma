@@ -33,11 +33,11 @@ h1 {
 .navbar li {
   width: 20vw;
   height: 20vw;
-    display: block;
+    display: inline;
     text-align: center;
 }
 
 .navbar li img {
-  width: 96px;
-  height: 96px;
+  width: 15vw;
+  height: 15vw;
 }
