@@ -28,6 +28,7 @@ h1 {
     bottom: 0px;
     width: 100vw;
   height: 20vw;
+  border-top: 5px solid #ffffff;
 }
 
 .navbar li {
